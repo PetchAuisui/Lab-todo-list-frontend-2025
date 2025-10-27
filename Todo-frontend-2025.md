@@ -1201,9 +1201,10 @@ https://your-username.github.io/todo-frontend/
 
 ---
 ## บันทึกรูปผลการรันหน้า Front-end
-```bash
-# บันทึกรูปผลการรันหน้า Front-end ที่นี่
-```
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0ed48eab-9582-428b-9bab-3c5effef5e8e" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/682d2d39-f1ad-44a3-b203-8aeab09c78ed" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a5adc2b6-aeb2-4e04-80ed-6ee043f64bb0" />
+
 
 ## ส่วนที่ 11: Troubleshooting
 
