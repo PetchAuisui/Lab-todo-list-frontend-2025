@@ -1401,7 +1401,8 @@ todo-frontend/
 1. **CI/CD Pipeline**: อธิบายขั้นตอนใน GitHub Actions workflow
 - CI/CD (Continuous Integration / Continuous Deployment) ในโปรเจกต์นี้ถูกตั้งค่าไว้ในไฟล์ .github/workflows/deploy.yml ซึ่งใช้ระบบ GitHub Actions ทำงานอัตโนมัติเมื่อมีการ push code ไปยัง branch main
 - ขั้นตอนหลักของ Pipeline
-  | ขั้นตอน                          | รายละเอียด                                                                                                                                             |
+
+| ขั้นตอน                          | รายละเอียด                                                                                                                                             |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **1. Trigger Workflow**          | Workflow จะเริ่มทำงานอัตโนมัติเมื่อมีการ push หรือ pull request มายัง branch `main` หรือเมื่อผู้ใช้กด “Run workflow” ด้วยตนเอง (workflow_dispatch)     |
 | **2. Checkout Code**             | ใช้ action `actions/checkout@v4` เพื่อดึง source code ของโปรเจกต์จาก GitHub ลงมาบนเครื่อง virtual ที่ GitHub เตรียมให้                                 |
@@ -1412,6 +1413,7 @@ todo-frontend/
 | **7. Upload Artifact**           | ใช้ `actions/upload-pages-artifact@v3` เพื่อเก็บไฟล์ที่ build แล้วเตรียมสำหรับการ deploy                                                               |
 | **8. Deploy to GitHub Pages**    | ใช้ `actions/deploy-pages@v4` เพื่อเผยแพร่เว็บไซต์ขึ้น GitHub Pages โดยอัตโนมัติ                                                                       |
 | **9. Verify Deployment**         | GitHub Actions จะแสดง URL ของเว็บ (เช่น `https://username.github.io/todo-frontend/`) เมื่อ deploy สำเร็จ ✅                                             |
+
 - **สรุป** : เมื่อ push → GitHub Actions จะ Build → Upload → Deploy ให้โดยอัตโนมัติ โดยไม่ต้องอัปโหลดไฟล์ด้วยตนเอง
 
 
