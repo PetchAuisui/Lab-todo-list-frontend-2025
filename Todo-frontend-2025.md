@@ -1469,8 +1469,8 @@ todo-frontend/
 
 ## สรุป
 **URL ของนักศึกษาคือ**:
-- Frontend: `https://your-username.github.io/todo-frontend/`
-- Backend: `https://your-backend.onrender.com`
+- Frontend: `https://petchauisui.github.io/todo-frontend/`
+- Backend: `https://flask-todo-app-90g0.onrender.com`
 
 ---
 
