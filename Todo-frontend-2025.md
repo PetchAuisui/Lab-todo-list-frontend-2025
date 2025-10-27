@@ -1412,7 +1412,7 @@ todo-frontend/
 | **6. Build Next.js App**         | ใช้คำสั่ง `npm run build` เพื่อสร้าง static files ไปไว้ในโฟลเดอร์ `out/` พร้อมกำหนดตัวแปรแวดล้อม `NEXT_PUBLIC_API_URL` เพื่อเชื่อมต่อกับ Backend Flask |
 | **7. Upload Artifact**           | ใช้ `actions/upload-pages-artifact@v3` เพื่อเก็บไฟล์ที่ build แล้วเตรียมสำหรับการ deploy                                                               |
 | **8. Deploy to GitHub Pages**    | ใช้ `actions/deploy-pages@v4` เพื่อเผยแพร่เว็บไซต์ขึ้น GitHub Pages โดยอัตโนมัติ                                                                       |
-| **9. Verify Deployment**         | GitHub Actions จะแสดง URL ของเว็บ (เช่น `https://username.github.io/todo-frontend/`) เมื่อ deploy สำเร็จ ✅                                             |
+| **9. Verify Deployment**         | GitHub Actions จะแสดง URL ของเว็บ (เช่น `https://username.github.io/todo-frontend/`) เมื่อ deploy สำเร็จ                                              |
 
 - **สรุป** : เมื่อ push → GitHub Actions จะ Build → Upload → Deploy ให้โดยอัตโนมัติ โดยไม่ต้องอัปโหลดไฟล์ด้วยตนเอง
 
